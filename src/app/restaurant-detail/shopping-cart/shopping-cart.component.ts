@@ -5,6 +5,7 @@ import {ShoppingCartService} from './shopping-cart.service';
 @Component({
   selector: 'mt-shopping-cart',
   templateUrl: './shopping-cart.component.html',
+  // preserveWhitespaces: true, Configuração individual para cada componente.
   animations: [
     trigger('row', [
       state('ready', style({opacity: 1})),
