@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import {RestaurantsService} from '../../restaurants/restaurants.service';
 import {MenuItem} from '../menu-item/menu-item.model';
 
-import {Observable} from 'rxjs/Observable';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'mt-menu',

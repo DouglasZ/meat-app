@@ -5,10 +5,7 @@ import {Restaurant} from './restaurant/restaurant.model';
 
 import {MEAT_API} from '../app.api';
 
-import {Observable} from 'rxjs/Observable';
-
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
+import {Observable} from 'rxjs';
 
 import {MenuItem} from '../restaurant-detail/menu-item/menu-item.model';
 
